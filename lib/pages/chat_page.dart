@@ -26,15 +26,20 @@ class _ChatWindowState extends State<ChatWindow> {
     ],
   );
 
-
-
   // creating small Widget
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar,
-      body: Text("this is it", style: TextStyle(color: Colors.red, fontSize: 34.0, fontWeight: FontWeight.bold, )),
+      body: Text(
+        "this is it",
+        style: TextStyle(
+          color: Colors.red,
+          fontSize: 34.0,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
 
       // operations@nanojifon dash biz.com
     );

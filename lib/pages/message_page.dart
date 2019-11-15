@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:loginapp/pages/chat_page.dart';
 
 class MessagePage extends StatefulWidget {
   @override
@@ -9,6 +10,28 @@ class _MessagePageState extends State<MessagePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Color(0xfff8faf8),
+        centerTitle: true,
+        elevation: 1.0,
+        leading: Icon(Icons.photo_camera, color: Colors.black,),
+        title: SizedBox(
+      height: 35.0,
+      child: Image.asset("assets/images/insta_logo.png"),
+    ),
+
+        /*
+        *actions: <Widget>[
+      Padding(
+        padding: const EdgeInsets.only(right: 12.0),
+        child: Icon(
+          Icons.send,
+        ),
+      ),
+    ],
+        *
+        */
+      ),
       resizeToAvoidBottomPadding: false,
       backgroundColor: Colors.green,
       body: Container(
@@ -108,12 +131,16 @@ class _MessagePageState extends State<MessagePage> {
           ),
         ),
       ),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        Navigator.pop(context);
-      },
-      child: Icon(
-        Icons.arrow_back,
-      ),),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pop(context);
+          Navigator.push(
+              context, MaterialPageRoute(builder: (context) => ChatWindow()));
+        },
+        child: Icon(
+          Icons.arrow_back,
+        ),
+      ),
     );
   }
 }

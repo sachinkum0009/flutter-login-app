@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:loginapp/pages/message_page.dart';
 import 'package:loginapp/utils/data.dart';
+import 'package:loginapp/pages/chat_page.dart';
 
 void main() => runApp(MyApp());
 
