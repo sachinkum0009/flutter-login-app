@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:loginapp/pages/message_page.dart';
+import 'package:loginapp/utils/data.dart';
 
 void main() => runApp(MyApp());
 
@@ -75,13 +76,13 @@ class _LoginPageState extends State<LoginPage>
                       children: <Widget>[
                         TextFormField(
                           decoration: InputDecoration(
-                              labelText: "Enter Email",
+                              labelText: Data.username,
                               fillColor: Colors.white),
                           keyboardType: TextInputType.emailAddress,
                         ),
                         TextFormField(
                           decoration: InputDecoration(
-                            labelText: "Enter Password",
+                            labelText: Data.password,
                             fillColor: Colors.white,
                           ),
                           obscureText: true,

@@ -108,6 +108,12 @@ class _MessagePageState extends State<MessagePage> {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        Navigator.pop(context);
+      },
+      child: Icon(
+        Icons.arrow_back,
+      ),),
     );
   }
 }
