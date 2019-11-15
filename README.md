@@ -1,16 +1,15 @@
 # loginapp
 
-A new Flutter project.
+Flutter application with animated ui and a chat page
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+You can get start with this project and feel the awesomeness of flutter
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- [Git page to view more projects](https://sachinkum0009.github.io/)
+- [Follow on twitter](https://twitter.com/SachinKum0009)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Pull request are most welcome
+
+### For any problem post a issue 
